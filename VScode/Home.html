@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Submit Your Feedback</h1>
+    <form id="feedbackForm" method="POST" action="submit.php">
+        <input type="text" id="name" name="feedback" placeholder="Your Name" required /><br><br>
+
+        <textarea id="feedback" name="feedback" placeholder="Your Feedback" required></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Live Preview</h2>
+    <div id="liveFeedback"></div>
+
+    <p><a href="results.php">View All Feedback</a></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
